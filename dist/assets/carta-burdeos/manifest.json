@@ -1,0 +1,989 @@
+{
+  "style": "Burdeos, luz cálida, fotografía gastronómica realista. Recreaciones IA.",
+  "generator": "integrado",
+  "tasks": [
+    {
+      "category": "Entrantes",
+      "name": "Ensaladilla rusa",
+      "description": "Con huevo por encima",
+      "id": "001-ensaladilla-rusa"
+    },
+    {
+      "category": "Entrantes",
+      "name": "Croquetas caseras",
+      "description": "Pollo o jamón",
+      "id": "002-croquetas-caseras"
+    },
+    {
+      "category": "Entrantes",
+      "name": "Gambas al pilpil",
+      "description": "",
+      "id": "003-gambas-al-pilpil"
+    },
+    {
+      "category": "Entrantes",
+      "name": "Berenjenas fritas",
+      "description": "Con miel de caña",
+      "id": "004-berenjenas-fritas"
+    },
+    {
+      "category": "Entrantes",
+      "name": "Callos",
+      "description": "",
+      "id": "005-callos"
+    },
+    {
+      "category": "Entrantes",
+      "name": "Boquerones fritos",
+      "description": "",
+      "id": "006-boquerones-fritos"
+    },
+    {
+      "category": "Entrantes",
+      "name": "Calamares fritos",
+      "description": "",
+      "id": "007-calamares-fritos"
+    },
+    {
+      "category": "Entrantes",
+      "name": "Fritura de pescado",
+      "description": "",
+      "id": "008-fritura-de-pescado"
+    },
+    {
+      "category": "Ensaladas",
+      "name": "Ensalada de la casa",
+      "description": "Mezclum, tomate, aguacate, cebolla caramelizada y vinagreta de miel y mostaza",
+      "id": "009-ensalada-de-la-casa"
+    },
+    {
+      "category": "Ensaladas",
+      "name": "Ensalada Hoyo 19",
+      "description": "Mezclum, fruta de temporada, langostinos y salsa Hoyo 19",
+      "id": "010-ensalada-hoyo-19"
+    },
+    {
+      "category": "Ensaladas",
+      "name": "Ensalada de queso de cabra",
+      "description": "Mezclum, tomate cherry, fruta, miel balsámica y nueces",
+      "id": "011-ensalada-de-queso-de-cabra"
+    },
+    {
+      "category": "Carnes",
+      "name": "Hamburguesa Angus americana",
+      "description": "Ternera Angus, cheddar, brioche, bacon, ensalada, pepinillos, cebolla caramelizada y alioli",
+      "id": "012-hamburguesa-angus-americana"
+    },
+    {
+      "category": "Carnes",
+      "name": "Chuletón de vaca del norte · 500 g",
+      "description": "Maduración especial. Parrilla de leña, patatas y verduras",
+      "id": "013-chuleton-de-vaca-del-norte-500-g"
+    },
+    {
+      "category": "Carnes",
+      "name": "Chuletón de vaca polaca · 500 g",
+      "description": "Parrilla de leña, patatas y verduras",
+      "id": "014-chuleton-de-vaca-polaca-500-g"
+    },
+    {
+      "category": "Carnes",
+      "name": "Entrecot de ternera del norte · 300 g",
+      "description": "Parrilla de leña, patatas y verduras",
+      "id": "015-entrecot-de-ternera-del-norte-300-g"
+    },
+    {
+      "category": "Carnes",
+      "name": "Rabo de toro",
+      "description": "Al horno, salsa de vino blanco y canela, con patatas",
+      "id": "016-rabo-de-toro"
+    },
+    {
+      "category": "Carnes",
+      "name": "Costillas",
+      "description": "Cocción lenta al horno en salsa barbacoa, con patatas",
+      "id": "017-costillas"
+    },
+    {
+      "category": "Carnes",
+      "name": "Presa ibérica",
+      "description": "Parrilla de leña, patatas y verduras",
+      "id": "018-presa-iberica"
+    },
+    {
+      "category": "Carnes",
+      "name": "Cachopo Hoyo 19",
+      "description": "Ternera rellena de piquillos, jamón y queso azul. Patatas fritas con piel",
+      "id": "019-cachopo-hoyo-19"
+    },
+    {
+      "category": "Carnes",
+      "name": "Churrasco de pollo",
+      "description": "Contramuslos macerados con salsa Hoyo 19, parrilla de leña y patatas con piel",
+      "id": "020-churrasco-de-pollo"
+    },
+    {
+      "category": "Carnes",
+      "name": "Brocheta de solomillo de cerdo",
+      "description": "Tocino y salsa al pimentón. Parrilla de leña y patatas con piel",
+      "id": "021-brocheta-de-solomillo-de-cerdo"
+    },
+    {
+      "category": "Carnes",
+      "name": "Parrillada",
+      "description": "Chorizo criollo, morcilla, presa, secreto, lagarto ibérico y costilla",
+      "id": "022-parrillada"
+    },
+    {
+      "category": "Carnes",
+      "name": "Escalope de pollo",
+      "description": "Tres filetes empanados, patatas fritas con piel",
+      "id": "023-escalope-de-pollo"
+    },
+    {
+      "category": "Pescados",
+      "name": "Salmón noruego a la plancha",
+      "description": "Patatas a lo pobre y verduras",
+      "id": "024-salmon-noruego-a-la-plancha"
+    },
+    {
+      "category": "Pescados",
+      "name": "Lubina de la lonja de Málaga",
+      "description": "Plancha o espalda. Patatas a lo pobre y verduras",
+      "id": "025-lubina-de-la-lonja-de-malaga"
+    },
+    {
+      "category": "Pescados",
+      "name": "Emperador a la plancha",
+      "description": "Salsa a la pimienta rosa, patatas a lo pobre y verduras",
+      "id": "026-emperador-a-la-plancha"
+    },
+    {
+      "category": "Pescados",
+      "name": "Calamar a la plancha",
+      "description": "Con patatas a lo pobre",
+      "id": "027-calamar-a-la-plancha"
+    },
+    {
+      "category": "Pescados",
+      "name": "Gulas con huevos",
+      "description": "Con patatas a lo pobre",
+      "id": "028-gulas-con-huevos"
+    },
+    {
+      "category": "Pescados",
+      "name": "Salsa de pimienta negra o rosa",
+      "description": "",
+      "id": "029-salsa-de-pimienta-negra-o-rosa"
+    },
+    {
+      "category": "Pescados",
+      "name": "Pan",
+      "description": "",
+      "id": "030-pan"
+    },
+    {
+      "category": "Paellas",
+      "name": "Paella mixta o de carne",
+      "description": "Por persona",
+      "id": "031-paella-mixta-o-de-carne"
+    },
+    {
+      "category": "Paellas",
+      "name": "Paella de marisco",
+      "description": "Por persona",
+      "id": "032-paella-de-marisco"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevo con ajo y pan",
+      "description": "",
+      "id": "033-huevo-con-ajo-y-pan"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevo con bacon y pan",
+      "description": "",
+      "id": "034-huevo-con-bacon-y-pan"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos con ajo y pan",
+      "description": "",
+      "id": "035-huevos-con-ajo-y-pan"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos con ajo y bacon",
+      "description": "",
+      "id": "036-huevos-con-ajo-y-bacon"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos con bacon y tostadas",
+      "description": "",
+      "id": "037-huevos-con-bacon-y-tostadas"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos con chorizo",
+      "description": "",
+      "id": "038-huevos-con-chorizo"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos con patatas",
+      "description": "",
+      "id": "039-huevos-con-patatas"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos revueltos y tostada",
+      "description": "",
+      "id": "040-huevos-revueltos-y-tostada"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos con jamón serrano",
+      "description": "",
+      "id": "041-huevos-con-jamon-serrano"
+    },
+    {
+      "category": "Huevos",
+      "name": "Huevos con patatas y gulas",
+      "description": "",
+      "id": "042-huevos-con-patatas-y-gulas"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Aceite",
+      "description": "",
+      "id": "043-bocatas-aceite"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Aceite y ajo",
+      "description": "",
+      "id": "044-bocatas-aceite-y-ajo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Mantequilla",
+      "description": "",
+      "id": "045-bocatas-mantequilla"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Mantequilla y mermelada",
+      "description": "",
+      "id": "046-bocatas-mantequilla-y-mermelada"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Tomate",
+      "description": "",
+      "id": "047-bocatas-tomate"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Tomate y ajo",
+      "description": "",
+      "id": "048-bocatas-tomate-y-ajo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Mixto",
+      "description": "",
+      "id": "049-bocatas-mixto"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Jamón serrano",
+      "description": "",
+      "id": "050-bocatas-jamon-serrano"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Catalán",
+      "description": "",
+      "id": "051-bocatas-catalan"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Catalán de pavo",
+      "description": "",
+      "id": "052-bocatas-catalan-de-pavo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Andaluz ibérico",
+      "description": "",
+      "id": "053-bocatas-andaluz-iberico"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Jamón ibérico",
+      "description": "",
+      "id": "054-bocatas-jamon-iberico"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Jamón de York / pavo",
+      "description": "",
+      "id": "055-bocatas-jamon-de-york-pavo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Bacon",
+      "description": "",
+      "id": "056-bocatas-bacon"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Bacon y queso",
+      "description": "",
+      "id": "057-bocatas-bacon-y-queso"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Bacon y tomate",
+      "description": "",
+      "id": "058-bocatas-bacon-y-tomate"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Serranito de pollo / cerdo",
+      "description": "",
+      "id": "059-bocatas-serranito-de-pollo-cerdo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Atún",
+      "description": "",
+      "id": "060-bocatas-atun"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Atún con tomate",
+      "description": "",
+      "id": "061-bocatas-atun-con-tomate"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Lomo en manteca",
+      "description": "",
+      "id": "062-bocatas-lomo-en-manteca"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Zurrapa",
+      "description": "",
+      "id": "063-bocatas-zurrapa"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Planchitas de pollo / cerdo",
+      "description": "",
+      "id": "064-bocatas-planchitas-de-pollo-cerdo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Queso manchego",
+      "description": "",
+      "id": "065-bocatas-queso-manchego"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Paté",
+      "description": "",
+      "id": "066-bocatas-pate"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Sobrasada",
+      "description": "",
+      "id": "067-bocatas-sobrasada"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Tortilla",
+      "description": "",
+      "id": "068-bocatas-tortilla"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Campero",
+      "description": "",
+      "id": "069-bocatas-campero"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Pepito",
+      "description": "",
+      "id": "070-bocatas-pepito"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Huevo",
+      "description": "",
+      "id": "071-bocatas-huevo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Manchego, tomate y aceite",
+      "description": "",
+      "id": "072-bocatas-manchego-tomate-y-aceite"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Tomate y aguacate",
+      "description": "",
+      "id": "073-bocatas-tomate-y-aguacate"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Pepito de pollo / cerdo",
+      "description": "",
+      "id": "074-bocatas-pepito-de-pollo-cerdo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Lomo adobado",
+      "description": "",
+      "id": "075-bocatas-lomo-adobado"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Bacon y huevo",
+      "description": "",
+      "id": "076-bocatas-bacon-y-huevo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Vegetal de atún",
+      "description": "",
+      "id": "077-bocatas-vegetal-de-atun"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Queso en lonchas",
+      "description": "",
+      "id": "078-bocatas-queso-en-lonchas"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Tortilla de atún",
+      "description": "",
+      "id": "079-bocatas-tortilla-de-atun"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Aceite y ajo",
+      "description": "",
+      "id": "080-rebanadas-aceite-y-ajo"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Mantequilla",
+      "description": "",
+      "id": "081-rebanadas-mantequilla"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Mantequilla y mermelada",
+      "description": "",
+      "id": "082-rebanadas-mantequilla-y-mermelada"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Tomate y ajo",
+      "description": "",
+      "id": "083-rebanadas-tomate-y-ajo"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Jamón serrano",
+      "description": "",
+      "id": "084-rebanadas-jamon-serrano"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Jamón ibérico",
+      "description": "",
+      "id": "085-rebanadas-jamon-iberico"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Catalán",
+      "description": "",
+      "id": "086-rebanadas-catalan"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Jamón de York / pavo",
+      "description": "",
+      "id": "087-rebanadas-jamon-de-york-pavo"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Queso manchego",
+      "description": "",
+      "id": "088-rebanadas-queso-manchego"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Tortilla y aguacate",
+      "description": "",
+      "id": "089-rebanadas-tortilla-y-aguacate"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Aguacate con tomate",
+      "description": "",
+      "id": "090-rebanadas-aguacate-con-tomate"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Atún con tomate",
+      "description": "",
+      "id": "091-rebanadas-atun-con-tomate"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Atún con aguacate",
+      "description": "",
+      "id": "092-rebanadas-atun-con-aguacate"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Lomo en manteca",
+      "description": "",
+      "id": "093-rebanadas-lomo-en-manteca"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Zurrapa",
+      "description": "",
+      "id": "094-rebanadas-zurrapa"
+    },
+    {
+      "category": "Rebanadas",
+      "name": "Paté",
+      "description": "",
+      "id": "095-rebanadas-pate"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café en vaso de sidra",
+      "description": "",
+      "id": "096-cafe-en-vaso-de-sidra"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café con hielo pequeño",
+      "description": "",
+      "id": "097-cafe-con-hielo-pequeno"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café con hielo grande",
+      "description": "",
+      "id": "098-cafe-con-hielo-grande"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café grande",
+      "description": "Solo, mitad, sombra, nube, americano o cortado",
+      "id": "099-cafe-grande"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café pequeño",
+      "description": "Solo, mitad, expreso, sombra, nube, americano o cortado",
+      "id": "100-cafe-pequeno"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café con leche sin lactosa",
+      "description": "",
+      "id": "101-cafe-con-leche-sin-lactosa"
+    },
+    {
+      "category": "Cafés",
+      "name": "Descafeinado de sobre pequeño",
+      "description": "",
+      "id": "102-descafeinado-de-sobre-pequeno"
+    },
+    {
+      "category": "Cafés",
+      "name": "Descafeinado de sobre grande",
+      "description": "",
+      "id": "103-descafeinado-de-sobre-grande"
+    },
+    {
+      "category": "Cafés",
+      "name": "Descafeinado de máquina con leche pequeño",
+      "description": "",
+      "id": "104-descafeinado-de-maquina-con-leche-pequeno"
+    },
+    {
+      "category": "Cafés",
+      "name": "Descafeinado de máquina con leche grande",
+      "description": "",
+      "id": "105-descafeinado-de-maquina-con-leche-grande"
+    },
+    {
+      "category": "Cafés",
+      "name": "Descafeinado americano pequeño",
+      "description": "",
+      "id": "106-descafeinado-americano-pequeno"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café bombón pequeño",
+      "description": "",
+      "id": "107-cafe-bombon-pequeno"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café bombón grande",
+      "description": "",
+      "id": "108-cafe-bombon-grande"
+    },
+    {
+      "category": "Cafés",
+      "name": "Carajillo",
+      "description": "Coñac, Baileys, anís o whisky",
+      "id": "109-carajillo"
+    },
+    {
+      "category": "Cafés",
+      "name": "Carajillo Baileys grande",
+      "description": "",
+      "id": "110-carajillo-baileys-grande"
+    },
+    {
+      "category": "Cafés",
+      "name": "Capuchino",
+      "description": "",
+      "id": "111-capuchino"
+    },
+    {
+      "category": "Cafés",
+      "name": "Café irlandés",
+      "description": "",
+      "id": "112-cafe-irlandes"
+    },
+    {
+      "category": "Cafés",
+      "name": "Lumumba",
+      "description": "",
+      "id": "113-lumumba"
+    },
+    {
+      "category": "Cafés",
+      "name": "Extra carga",
+      "description": "",
+      "id": "114-extra-carga"
+    },
+    {
+      "category": "Cafés",
+      "name": "Extra leche",
+      "description": "",
+      "id": "115-extra-leche"
+    },
+    {
+      "category": "Cafés",
+      "name": "Extra Baileys",
+      "description": "",
+      "id": "116-extra-baileys"
+    },
+    {
+      "category": "Cafés",
+      "name": "Extra miel",
+      "description": "",
+      "id": "117-extra-miel"
+    },
+    {
+      "category": "Extras",
+      "name": "Tomate en rodajas",
+      "description": "",
+      "id": "118-extras-tomate-en-rodajas"
+    },
+    {
+      "category": "Extras",
+      "name": "Queso",
+      "description": "",
+      "id": "119-extras-queso"
+    },
+    {
+      "category": "Extras",
+      "name": "Queso manchego",
+      "description": "",
+      "id": "120-extras-queso-manchego"
+    },
+    {
+      "category": "Extras",
+      "name": "Jamón",
+      "description": "",
+      "id": "121-extras-jamon"
+    },
+    {
+      "category": "Extras",
+      "name": "Bacon",
+      "description": "",
+      "id": "122-extras-bacon"
+    },
+    {
+      "category": "Extras",
+      "name": "Lechuga",
+      "description": "",
+      "id": "123-extras-lechuga"
+    },
+    {
+      "category": "Extras",
+      "name": "Pimiento",
+      "description": "",
+      "id": "124-extras-pimiento"
+    },
+    {
+      "category": "Extras",
+      "name": "Cebolla",
+      "description": "",
+      "id": "125-extras-cebolla"
+    },
+    {
+      "category": "Extras",
+      "name": "Huevo",
+      "description": "",
+      "id": "126-extras-huevo"
+    },
+    {
+      "category": "Extras",
+      "name": "Jamón de York",
+      "description": "",
+      "id": "127-extras-jamon-de-york"
+    },
+    {
+      "category": "Extras",
+      "name": "Paté",
+      "description": "",
+      "id": "128-extras-pate"
+    },
+    {
+      "category": "Extras",
+      "name": "Aguacate",
+      "description": "",
+      "id": "129-extras-aguacate"
+    },
+    {
+      "category": "Extras",
+      "name": "Pavo",
+      "description": "",
+      "id": "130-extras-pavo"
+    },
+    {
+      "category": "Extras",
+      "name": "Mermelada",
+      "description": "",
+      "id": "131-extras-mermelada"
+    },
+    {
+      "category": "Extras",
+      "name": "Mantequilla",
+      "description": "",
+      "id": "132-extras-mantequilla"
+    },
+    {
+      "category": "Extras",
+      "name": "Sobrasada",
+      "description": "",
+      "id": "133-extras-sobrasada"
+    },
+    {
+      "category": "Extras",
+      "name": "Chorizo",
+      "description": "",
+      "id": "134-extras-chorizo"
+    },
+    {
+      "category": "Desayuno andaluz",
+      "name": "Bacon",
+      "description": "",
+      "id": "135-bacon"
+    },
+    {
+      "category": "Desayuno andaluz",
+      "name": "Queso",
+      "description": "",
+      "id": "136-queso"
+    },
+    {
+      "category": "Desayuno andaluz",
+      "name": "Aguacate",
+      "description": "",
+      "id": "137-aguacate"
+    },
+    {
+      "category": "Desayuno andaluz",
+      "name": "Tomate",
+      "description": "",
+      "id": "138-tomate"
+    },
+    {
+      "category": "Desayuno andaluz",
+      "name": "Zumo de naranja",
+      "description": "Disponibilidad por confirmar",
+      "id": "139-zumo-de-naranja"
+    },
+    {
+      "category": "Para los peques",
+      "name": "Espaguetis boloñesa",
+      "description": "",
+      "id": "140-espaguetis-bolonesa"
+    },
+    {
+      "category": "Para los peques",
+      "name": "Lasaña boloñesa",
+      "description": "",
+      "id": "141-lasana-bolonesa"
+    },
+    {
+      "category": "Nuestras ollas",
+      "name": "Ajoblanco / gazpacho en vaso",
+      "description": "Solo en temporada",
+      "id": "142-ajoblanco-gazpacho-en-vaso"
+    },
+    {
+      "category": "Nuestras ollas",
+      "name": "Salmorejo",
+      "description": "",
+      "id": "143-salmorejo"
+    },
+    {
+      "category": "De nuestra huerta",
+      "name": "Ensalada César",
+      "description": "Lechuga, pollo a la plancha, bacon, pan frito, parmesano y salsa César",
+      "id": "144-ensalada-cesar"
+    },
+    {
+      "category": "De nuestra huerta",
+      "name": "Parrillada de verduras",
+      "description": "",
+      "id": "145-parrillada-de-verduras"
+    },
+    {
+      "category": "Nuestras carnes seleccionadas",
+      "name": "Entrecot de ternera",
+      "description": "",
+      "id": "146-entrecot-de-ternera"
+    },
+    {
+      "category": "Nuestras carnes seleccionadas",
+      "name": "Brochetas de cerdo ibérico",
+      "description": "",
+      "id": "147-brochetas-de-cerdo-iberico"
+    },
+    {
+      "category": "Nuestras carnes seleccionadas",
+      "name": "Pernil de cordero a las hierbas",
+      "description": "",
+      "id": "148-pernil-de-cordero-a-las-hierbas"
+    },
+    {
+      "category": "Nuestras carnes seleccionadas",
+      "name": "Parrillada ibérica",
+      "description": "",
+      "id": "149-parrillada-iberica"
+    },
+    {
+      "category": "Nuestras carnes seleccionadas",
+      "name": "Presa caramelizada",
+      "description": "",
+      "id": "150-presa-caramelizada"
+    },
+    {
+      "category": "Nuestros mares",
+      "name": "Salmón a la parrilla / plancha",
+      "description": "Con verduras frescas",
+      "id": "151-salmon-a-la-parrilla-plancha"
+    },
+    {
+      "category": "Nuestros mares",
+      "name": "Lubina / dorada a la espalda o a la sal",
+      "description": "",
+      "id": "152-lubina-dorada-a-la-espalda-o-a-la-sal"
+    },
+    {
+      "category": "Nuestros arroces",
+      "name": "Paella mixta",
+      "description": "Por persona. Otra versión publicada en Maps",
+      "id": "153-paella-mixta"
+    },
+    {
+      "category": "Salsas caseras",
+      "name": "Alioli",
+      "description": "",
+      "id": "154-alioli"
+    },
+    {
+      "category": "Salsas caseras",
+      "name": "Salsa de champiñones",
+      "description": "",
+      "id": "155-salsa-de-champinones"
+    },
+    {
+      "category": "Salsas caseras",
+      "name": "Salsa a la pimienta",
+      "description": "",
+      "id": "156-salsa-a-la-pimienta"
+    },
+    {
+      "category": "Otros",
+      "name": "Fanta",
+      "description": "",
+      "id": "157-fanta"
+    },
+    {
+      "category": "Otros",
+      "name": "7up",
+      "description": "",
+      "id": "158-7up"
+    },
+    {
+      "category": "Otros",
+      "name": "Zumo",
+      "description": "",
+      "id": "159-zumo"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Hoyo 19",
+      "description": "Composición no descrita en la carta de Google Maps. Propuesta visual provisional.",
+      "provisional": true,
+      "id": "160-bocatas-hoyo-19"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Tortilla especial",
+      "description": "Composición no descrita en la carta de Google Maps. Propuesta visual provisional.",
+      "provisional": true,
+      "id": "161-bocatas-tortilla-especial"
+    },
+    {
+      "category": "Cafés",
+      "name": "Crema",
+      "description": "Composición no descrita en la carta de Google Maps. Propuesta visual provisional.",
+      "provisional": true,
+      "id": "162-cafes-crema"
+    },
+    {
+      "category": "Extras",
+      "name": "Completo",
+      "description": "Composición no descrita en la carta de Google Maps. Propuesta visual provisional.",
+      "provisional": true,
+      "id": "163-extras-completo"
+    }
+  ],
+  "pending": []
+}

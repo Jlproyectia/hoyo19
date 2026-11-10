@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "producto": "Ensaladilla rusa",
+    "categoria": "Entrantes",
+    "descripcion": "Con huevo por encima",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 2,
+    "producto": "Croquetas caseras",
+    "categoria": "Entrantes",
+    "descripcion": "Pollo o jamón",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 3,
+    "producto": "Gambas al pilpil",
+    "categoria": "Entrantes",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 4,
+    "producto": "Berenjenas fritas",
+    "categoria": "Entrantes",
+    "descripcion": "Con miel de caña",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 5,
+    "producto": "Callos",
+    "categoria": "Entrantes",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 6,
+    "producto": "Boquerones fritos",
+    "categoria": "Entrantes",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 7,
+    "producto": "Calamares fritos",
+    "categoria": "Entrantes",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 8,
+    "producto": "Fritura de pescado",
+    "categoria": "Entrantes",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 9,
+    "producto": "Ensalada de la casa",
+    "categoria": "Ensaladas",
+    "descripcion": "Mezclum, tomate, aguacate, cebolla caramelizada y vinagreta de miel y mostaza",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 10,
+    "producto": "Ensalada Hoyo 19",
+    "categoria": "Ensaladas",
+    "descripcion": "Mezclum, fruta de temporada, langostinos y salsa Hoyo 19",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 11,
+    "producto": "Ensalada de queso de cabra",
+    "categoria": "Ensaladas",
+    "descripcion": "Mezclum, tomate cherry, fruta, miel balsámica y nueces",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 12,
+    "producto": "Hamburguesa Angus americana",
+    "categoria": "Carnes",
+    "descripcion": "Ternera Angus, cheddar, brioche, bacon, ensalada, pepinillos, cebolla caramelizada y alioli",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 13,
+    "producto": "Chuletón de vaca del norte · 500 g",
+    "categoria": "Carnes",
+    "descripcion": "Maduración especial. Parrilla de leña, patatas y verduras",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 14,
+    "producto": "Chuletón de vaca polaca · 500 g",
+    "categoria": "Carnes",
+    "descripcion": "Parrilla de leña, patatas y verduras",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 15,
+    "producto": "Entrecot de ternera del norte · 300 g",
+    "categoria": "Carnes",
+    "descripcion": "Parrilla de leña, patatas y verduras",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 16,
+    "producto": "Rabo de toro",
+    "categoria": "Carnes",
+    "descripcion": "Al horno, salsa de vino blanco y canela, con patatas",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 17,
+    "producto": "Costillas",
+    "categoria": "Carnes",
+    "descripcion": "Cocción lenta al horno en salsa barbacoa, con patatas",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 18,
+    "producto": "Presa ibérica",
+    "categoria": "Carnes",
+    "descripcion": "Parrilla de leña, patatas y verduras",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 19,
+    "producto": "Cachopo Hoyo 19",
+    "categoria": "Carnes",
+    "descripcion": "Ternera rellena de piquillos, jamón y queso azul. Patatas fritas con piel",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 20,
+    "producto": "Churrasco de pollo",
+    "categoria": "Carnes",
+    "descripcion": "Contramuslos macerados con salsa Hoyo 19, parrilla de leña y patatas con piel",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 21,
+    "producto": "Brocheta de solomillo de cerdo",
+    "categoria": "Carnes",
+    "descripcion": "Tocino y salsa al pimentón. Parrilla de leña y patatas con piel",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 22,
+    "producto": "Parrillada",
+    "categoria": "Carnes",
+    "descripcion": "Chorizo criollo, morcilla, presa, secreto, lagarto ibérico y costilla",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 23,
+    "producto": "Escalope de pollo",
+    "categoria": "Carnes",
+    "descripcion": "Tres filetes empanados, patatas fritas con piel",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 24,
+    "producto": "Salmón noruego a la plancha",
+    "categoria": "Pescados",
+    "descripcion": "Patatas a lo pobre y verduras",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 25,
+    "producto": "Lubina de la lonja de Málaga",
+    "categoria": "Pescados",
+    "descripcion": "Plancha o espalda. Patatas a lo pobre y verduras",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 26,
+    "producto": "Emperador a la plancha",
+    "categoria": "Pescados",
+    "descripcion": "Salsa a la pimienta rosa, patatas a lo pobre y verduras",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 27,
+    "producto": "Calamar a la plancha",
+    "categoria": "Pescados",
+    "descripcion": "Con patatas a lo pobre",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 28,
+    "producto": "Gulas con huevos",
+    "categoria": "Pescados",
+    "descripcion": "Con patatas a lo pobre",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 29,
+    "producto": "Paella mixta o de carne",
+    "categoria": "Paellas",
+    "descripcion": "Por persona",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 30,
+    "producto": "Paella de marisco",
+    "categoria": "Paellas",
+    "descripcion": "Por persona",
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 31,
+    "producto": "Huevo con ajo y pan",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 32,
+    "producto": "Huevo con bacon y pan",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 33,
+    "producto": "Huevos con ajo y pan",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 34,
+    "producto": "Huevos con ajo y bacon",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 35,
+    "producto": "Huevos con bacon y tostadas",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 36,
+    "producto": "Huevos con chorizo",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 37,
+    "producto": "Huevos con patatas",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 38,
+    "producto": "Huevos revueltos y tostada",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 39,
+    "producto": "Huevos con jamón serrano",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 40,
+    "producto": "Huevos con patatas y gulas",
+    "categoria": "Huevos",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 41,
+    "producto": "Bocadillo de Aceite",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 42,
+    "producto": "Bocadillo de Aceite y ajo",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 43,
+    "producto": "Bocadillo de Mantequilla",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 44,
+    "producto": "Bocadillo de Mantequilla y mermelada",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 45,
+    "producto": "Bocadillo de Tomate",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 46,
+    "producto": "Bocadillo de Tomate y ajo",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 47,
+    "producto": "Bocadillo de Mixto",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 48,
+    "producto": "Bocadillo de Jamón serrano",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 49,
+    "producto": "Bocadillo de Jamón ibérico",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 50,
+    "producto": "Bocadillo de Jamón de York / pavo",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 51,
+    "producto": "Bocadillo de Bacon",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 52,
+    "producto": "Bocadillo de Bacon y queso",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 53,
+    "producto": "Bocadillo de Bacon y tomate",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 54,
+    "producto": "Bocadillo de Serranito de pollo / cerdo",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 55,
+    "producto": "Bocadillo de Atún",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 56,
+    "producto": "Bocadillo de Atún con tomate",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 57,
+    "producto": "Bocadillo de Lomo en manteca",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 58,
+    "producto": "Bocadillo de Zurrapa",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 59,
+    "producto": "Bocadillo de Planchitas de pollo / cerdo",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 60,
+    "producto": "Bocadillo de Queso manchego",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 61,
+    "producto": "Bocadillo de Paté",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 62,
+    "producto": "Bocadillo de Sobrasada",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 63,
+    "producto": "Bocadillo de Tortilla",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 64,
+    "producto": "Bocadillo de Huevo",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 65,
+    "producto": "Bocadillo de Manchego, tomate y aceite",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 66,
+    "producto": "Bocadillo de Tomate y aguacate",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 67,
+    "producto": "Bocadillo de Lomo adobado",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 68,
+    "producto": "Bocadillo de Bacon y huevo",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 69,
+    "producto": "Bocadillo de Vegetal de atún",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 70,
+    "producto": "Bocadillo de Queso en lonchas",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 71,
+    "producto": "Bocadillo de Tortilla de atún",
+    "categoria": "Bocatas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 72,
+    "producto": "Rebanada de Aceite y ajo",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 73,
+    "producto": "Rebanada de Mantequilla",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 74,
+    "producto": "Rebanada de Mantequilla y mermelada",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 75,
+    "producto": "Rebanada de Tomate y ajo",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 76,
+    "producto": "Rebanada de Jamón serrano",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 77,
+    "producto": "Rebanada de Jamón ibérico",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 78,
+    "producto": "Rebanada de Jamón de York / pavo",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 79,
+    "producto": "Rebanada de Queso manchego",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  },
+  {
+    "id": 80,
+    "producto": "Rebanada de Tortilla y aguacate",
+    "categoria": "Rebanadas",
+    "descripcion": null,
+    "estado": "pendiente_generacion",
+    "fuente": "Google Maps, carta transcrita 09.11.2026",
+    "resolucion": "3840x2160"
+  }
+]

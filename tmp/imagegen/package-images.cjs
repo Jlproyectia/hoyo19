@@ -1,0 +1,30 @@
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const root = path.resolve(__dirname, '../../output/imagegen');
+const records = JSON.parse(fs.readFileSync(path.join(root,'generation-results.json'),'utf8'));
+const catalog = JSON.parse(fs.readFileSync(path.join(root,'catalogo-80.json'),'utf8').replace(/^\uFEFF/,''));
+const jobs = fs.readFileSync(path.join(__dirname,'productos-80.jsonl'),'utf8').replace(/^\uFEFF/,'').trim().split(/\r?\n/).map(JSON.parse);
+const escape = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+for (const r of records) {
+  const match = r.hint.match(/ as (.*?) by default/);
+  if (!match) throw Error('Missing output path '+r.id);
+  const file = path.basename(jobs[r.id-1].out);
+  const dest = path.join(root,file);
+  fs.copyFileSync(match[1],dest);
+  const bytes = fs.readFileSync(dest);
+  if(bytes.subarray(1,4).toString() !== 'PNG') throw Error('Not PNG '+file);
+  const item = catalog[r.id-1];
+  item.estado='generada';
+  item.archivo=file;
+  item.resolucion_solicitada='3840x2160';
+  item.resolucion_real=bytes.readUInt32BE(16)+'x'+bytes.readUInt32BE(20);
+  delete item.resolucion;
+  item.sha256=crypto.createHash('sha256').update(bytes).digest('hex');
+  item.nota='Imagen generada con IA; representación creativa del producto, no fotografía documental del emplatado del restaurante.';
+}
+fs.writeFileSync(path.join(root,'catalogo-80.json'),JSON.stringify(catalog,null,2));
+const complete=catalog.filter(x=>x.estado==='generada');
+if(new Set(complete.map(x=>x.sha256)).size!==complete.length) throw Error('Duplicate images');
+fs.writeFileSync(path.join(root,'index.html'),`<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hoyo 19 · Colección de productos</title><style>body{margin:0;background:#f7f0e7;color:#641712;font:16px system-ui}header{padding:60px 5vw 30px}h1{font:italic 60px Georgia;margin:10px 0}p{max-width:850px;line-height:1.7}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px;padding:20px 5vw 60px}figure{margin:0}img{width:100%;aspect-ratio:16/9;object-fit:cover}figcaption{padding:12px 0}small{display:block;color:#79675b;margin-top:6px}a{color:inherit}input{padding:14px;width:min(500px,80%);border:1px solid #bba892;background:transparent;font:inherit}</style><header><span>RESTAURANTE HOYO 19 · MIJAS</span><h1>Los productos, uno a uno.</h1><p>${complete.length} imágenes originales generadas con IA. Ambientación inspirada en el local; los emplatados son recreaciones. La resolución real figura junto a cada imagen. Estos archivos no son 4K nativos.</p><input aria-label="Buscar producto" placeholder="Buscar producto o categoría…" id="search"></header><main>${complete.map(x=>`<figure data-search="${escape((x.producto+' '+x.categoria).toLowerCase())}"><a href="${encodeURIComponent(x.archivo)}"><img loading="lazy" src="${encodeURIComponent(x.archivo)}" alt="${escape(x.producto)}"></a><figcaption>${String(x.id).padStart(3,'0')} · ${escape(x.producto)}<small>${escape(x.categoria)} · ${x.resolucion_real} px</small></figcaption></figure>`).join('')}</main><script>document.querySelector('#search').addEventListener('input',e=>{for(const f of document.querySelectorAll('figure'))f.hidden=!f.dataset.search.includes(e.target.value.toLowerCase())})</script></html>`);
+console.log(JSON.stringify({count:complete.length,unique:new Set(complete.map(x=>x.sha256)).size,resolutions:[...new Set(complete.map(x=>x.resolucion_real))],gallery:path.join(root,'index.html')}));

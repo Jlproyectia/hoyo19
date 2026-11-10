@@ -1,0 +1,852 @@
+{
+  "source": "Google Maps",
+  "retrieved": "2026-11-09",
+  "categories": [
+    {
+      "name": "Entrantes",
+      "group": "Para compartir",
+      "items": [
+        [
+          "Ensaladilla rusa",
+          "10,00",
+          "Con huevo por encima"
+        ],
+        [
+          "Croquetas caseras",
+          "12,00",
+          "Pollo o jamón"
+        ],
+        [
+          "Gambas al pilpil",
+          "13,50"
+        ],
+        [
+          "Berenjenas fritas",
+          "10,00",
+          "Con miel de caña"
+        ],
+        [
+          "Callos",
+          "9,50"
+        ],
+        [
+          "Boquerones fritos",
+          "12,50"
+        ],
+        [
+          "Calamares fritos",
+          "12,50"
+        ],
+        [
+          "Fritura de pescado",
+          "16,50"
+        ]
+      ]
+    },
+    {
+      "name": "Ensaladas",
+      "group": "La huerta",
+      "items": [
+        [
+          "Ensalada de la casa",
+          "13,00",
+          "Mezclum, tomate, aguacate, cebolla caramelizada y vinagreta de miel y mostaza"
+        ],
+        [
+          "Ensalada Hoyo 19",
+          "15,00",
+          "Mezclum, fruta de temporada, langostinos y salsa Hoyo 19"
+        ],
+        [
+          "Ensalada de queso de cabra",
+          "14,00",
+          "Mezclum, tomate cherry, fruta, miel balsámica y nueces"
+        ]
+      ]
+    },
+    {
+      "name": "Carnes",
+      "group": "La brasa",
+      "items": [
+        [
+          "Hamburguesa Angus americana",
+          "18,00",
+          "Ternera Angus, cheddar, brioche, bacon, ensalada, pepinillos, cebolla caramelizada y alioli"
+        ],
+        [
+          "Chuletón de vaca del norte · 500 g",
+          "34,00",
+          "Maduración especial. Parrilla de leña, patatas y verduras"
+        ],
+        [
+          "Chuletón de vaca polaca · 500 g",
+          "38,00",
+          "Parrilla de leña, patatas y verduras"
+        ],
+        [
+          "Entrecot de ternera del norte · 300 g",
+          "26,00",
+          "Parrilla de leña, patatas y verduras"
+        ],
+        [
+          "Rabo de toro",
+          "18,00",
+          "Al horno, salsa de vino blanco y canela, con patatas"
+        ],
+        [
+          "Costillas",
+          "16,00",
+          "Cocción lenta al horno en salsa barbacoa, con patatas"
+        ],
+        [
+          "Presa ibérica",
+          "25,00",
+          "Parrilla de leña, patatas y verduras"
+        ],
+        [
+          "Cachopo Hoyo 19",
+          "21,00",
+          "Ternera rellena de piquillos, jamón y queso azul. Patatas fritas con piel"
+        ],
+        [
+          "Churrasco de pollo",
+          "17,00",
+          "Contramuslos macerados con salsa Hoyo 19, parrilla de leña y patatas con piel"
+        ],
+        [
+          "Brocheta de solomillo de cerdo",
+          "18,00",
+          "Tocino y salsa al pimentón. Parrilla de leña y patatas con piel"
+        ],
+        [
+          "Parrillada",
+          "33,00",
+          "Chorizo criollo, morcilla, presa, secreto, lagarto ibérico y costilla"
+        ],
+        [
+          "Escalope de pollo",
+          "15,00",
+          "Tres filetes empanados, patatas fritas con piel"
+        ]
+      ]
+    },
+    {
+      "name": "Pescados",
+      "group": "El mar",
+      "items": [
+        [
+          "Salmón noruego a la plancha",
+          "21,00",
+          "Patatas a lo pobre y verduras"
+        ],
+        [
+          "Lubina de la lonja de Málaga",
+          "21,00",
+          "Plancha o espalda. Patatas a lo pobre y verduras"
+        ],
+        [
+          "Emperador a la plancha",
+          "19,00",
+          "Salsa a la pimienta rosa, patatas a lo pobre y verduras"
+        ],
+        [
+          "Calamar a la plancha",
+          "21,00",
+          "Con patatas a lo pobre"
+        ],
+        [
+          "Gulas con huevos",
+          "13,00",
+          "Con patatas a lo pobre"
+        ],
+        [
+          "Salsa de pimienta negra o rosa",
+          "3,00"
+        ],
+        [
+          "Pan",
+          "1,30"
+        ]
+      ]
+    },
+    {
+      "name": "Paellas",
+      "group": "Los arroces",
+      "items": [
+        [
+          "Paella mixta o de carne",
+          "15,00",
+          "Por persona"
+        ],
+        [
+          "Paella de marisco",
+          "17,00",
+          "Por persona"
+        ]
+      ]
+    },
+    {
+      "name": "Huevos",
+      "group": "Desayunos",
+      "items": [
+        [
+          "Huevo con ajo y pan",
+          "3,00"
+        ],
+        [
+          "Huevo con bacon y pan",
+          "4,50"
+        ],
+        [
+          "Huevos con ajo y pan",
+          "3,50"
+        ],
+        [
+          "Huevos con ajo y bacon",
+          "5,00"
+        ],
+        [
+          "Huevos con bacon y tostadas",
+          "5,50"
+        ],
+        [
+          "Huevos con chorizo",
+          "7,00"
+        ],
+        [
+          "Huevos con patatas",
+          "6,00"
+        ],
+        [
+          "Huevos revueltos y tostada",
+          "5,50"
+        ],
+        [
+          "Huevos con jamón serrano",
+          "8,50"
+        ],
+        [
+          "Huevos con patatas y gulas",
+          "13,00"
+        ]
+      ]
+    },
+    {
+      "name": "Bocatas",
+      "group": "Desayunos",
+      "items": [
+        [
+          "Aceite",
+          "1,80"
+        ],
+        [
+          "Aceite y ajo",
+          "2,10"
+        ],
+        [
+          "Mantequilla",
+          "2,00"
+        ],
+        [
+          "Mantequilla y mermelada",
+          "2,80"
+        ],
+        [
+          "Tomate",
+          "2,50"
+        ],
+        [
+          "Tomate y ajo",
+          "2,50"
+        ],
+        [
+          "Mixto",
+          "3,00"
+        ],
+        [
+          "Jamón serrano",
+          "3,50"
+        ],
+        [
+          "Catalán",
+          "3,00"
+        ],
+        [
+          "Catalán de pavo",
+          "4,00"
+        ],
+        [
+          "Andaluz ibérico",
+          "4,50"
+        ],
+        [
+          "Jamón ibérico",
+          "4,00"
+        ],
+        [
+          "Jamón de York / pavo",
+          "2,50"
+        ],
+        [
+          "Bacon",
+          "3,00"
+        ],
+        [
+          "Bacon y queso",
+          "3,50"
+        ],
+        [
+          "Bacon y tomate",
+          "3,00"
+        ],
+        [
+          "Serranito de pollo / cerdo",
+          "3,50"
+        ],
+        [
+          "Atún",
+          "2,50"
+        ],
+        [
+          "Atún con tomate",
+          "3,00"
+        ],
+        [
+          "Lomo en manteca",
+          "3,50"
+        ],
+        [
+          "Zurrapa",
+          "3,50"
+        ],
+        [
+          "Planchitas de pollo / cerdo",
+          "3,00"
+        ],
+        [
+          "Queso manchego",
+          "3,00"
+        ],
+        [
+          "Paté",
+          "2,50"
+        ],
+        [
+          "Sobrasada",
+          "2,50"
+        ],
+        [
+          "Tortilla",
+          "3,50"
+        ],
+        [
+          "Campero",
+          "3,50"
+        ],
+        [
+          "Pepito",
+          "3,50"
+        ],
+        [
+          "Huevo",
+          "2,70"
+        ],
+        [
+          "Manchego, tomate y aceite",
+          "3,00"
+        ],
+        [
+          "Tomate y aguacate",
+          "3,50"
+        ],
+        [
+          "Pepito de pollo / cerdo",
+          "2,80"
+        ],
+        [
+          "Lomo adobado",
+          "3,00"
+        ],
+        [
+          "Bacon y huevo",
+          "3,00"
+        ],
+        [
+          "Vegetal de atún",
+          "2,80"
+        ],
+        [
+          "Hoyo 19",
+          "3,50"
+        ],
+        [
+          "Queso en lonchas",
+          "4,00"
+        ],
+        [
+          "Tortilla especial",
+          "2,50"
+        ],
+        [
+          "Tortilla de atún",
+          "4,00"
+        ]
+      ]
+    },
+    {
+      "name": "Rebanadas",
+      "group": "Desayunos",
+      "items": [
+        [
+          "Aceite y ajo",
+          "2,80"
+        ],
+        [
+          "Mantequilla",
+          "3,00"
+        ],
+        [
+          "Mantequilla y mermelada",
+          "3,00"
+        ],
+        [
+          "Tomate y ajo",
+          "2,80"
+        ],
+        [
+          "Jamón serrano",
+          "4,20"
+        ],
+        [
+          "Jamón ibérico",
+          "6,50"
+        ],
+        [
+          "Catalán",
+          "4,50"
+        ],
+        [
+          "Jamón de York / pavo",
+          "4,50"
+        ],
+        [
+          "Queso manchego",
+          "4,50"
+        ],
+        [
+          "Tortilla y aguacate",
+          "5,50"
+        ],
+        [
+          "Aguacate con tomate",
+          "4,50"
+        ],
+        [
+          "Atún con tomate",
+          "4,00"
+        ],
+        [
+          "Atún con aguacate",
+          "5,00"
+        ],
+        [
+          "Lomo en manteca",
+          "4,60"
+        ],
+        [
+          "Zurrapa",
+          "4,00"
+        ],
+        [
+          "Paté",
+          "4,00"
+        ]
+      ]
+    },
+    {
+      "name": "Cafés",
+      "group": "Desayunos",
+      "items": [
+        [
+          "Café en vaso de sidra",
+          "3,00"
+        ],
+        [
+          "Café con hielo pequeño",
+          "2,00"
+        ],
+        [
+          "Café con hielo grande",
+          "2,50"
+        ],
+        [
+          "Café grande",
+          "1,70",
+          "Solo, mitad, sombra, nube, americano o cortado"
+        ],
+        [
+          "Café pequeño",
+          "1,50",
+          "Solo, mitad, expreso, sombra, nube, americano o cortado"
+        ],
+        [
+          "Café con leche sin lactosa",
+          "1,70"
+        ],
+        [
+          "Crema",
+          "2,00"
+        ],
+        [
+          "Descafeinado de sobre pequeño",
+          "1,50"
+        ],
+        [
+          "Descafeinado de sobre grande",
+          "1,70"
+        ],
+        [
+          "Descafeinado de máquina con leche pequeño",
+          "1,50"
+        ],
+        [
+          "Descafeinado de máquina con leche grande",
+          "1,70"
+        ],
+        [
+          "Descafeinado americano pequeño",
+          "1,50"
+        ],
+        [
+          "Café bombón pequeño",
+          "2,00"
+        ],
+        [
+          "Café bombón grande",
+          "3,00"
+        ],
+        [
+          "Carajillo",
+          "2,50",
+          "Coñac, Baileys, anís o whisky"
+        ],
+        [
+          "Carajillo Baileys grande",
+          "3,00"
+        ],
+        [
+          "Capuchino",
+          "3,00"
+        ],
+        [
+          "Café irlandés",
+          "5,50"
+        ],
+        [
+          "Lumumba",
+          "5,00"
+        ],
+        [
+          "Extra carga",
+          "0,50"
+        ],
+        [
+          "Extra leche",
+          "1,00"
+        ],
+        [
+          "Extra Baileys",
+          "2,00"
+        ],
+        [
+          "Extra miel",
+          "1,00"
+        ]
+      ]
+    },
+    {
+      "name": "Extras",
+      "group": "Desayunos",
+      "items": [
+        [
+          "Tomate en rodajas",
+          "1,00"
+        ],
+        [
+          "Queso",
+          "2,00"
+        ],
+        [
+          "Completo",
+          "2,00"
+        ],
+        [
+          "Queso manchego",
+          "1,50"
+        ],
+        [
+          "Jamón",
+          "1,50"
+        ],
+        [
+          "Bacon",
+          "2,00"
+        ],
+        [
+          "Lechuga",
+          "1,00"
+        ],
+        [
+          "Pimiento",
+          "1,00"
+        ],
+        [
+          "Cebolla",
+          "1,00"
+        ],
+        [
+          "Huevo",
+          "2,00"
+        ],
+        [
+          "Jamón de York",
+          "1,00"
+        ],
+        [
+          "Paté",
+          "1,00"
+        ],
+        [
+          "Aguacate",
+          "2,50"
+        ],
+        [
+          "Pavo",
+          "1,50"
+        ],
+        [
+          "Mermelada",
+          "0,50"
+        ],
+        [
+          "Mantequilla",
+          "1,00"
+        ],
+        [
+          "Sobrasada",
+          "1,00"
+        ],
+        [
+          "Chorizo",
+          "3,00"
+        ]
+      ]
+    },
+    {
+      "name": "Desayuno andaluz",
+      "group": "Desayunos",
+      "note": "Elementos listados en Google Maps sin precio. La disponibilidad del zumo debe confirmarse: una respuesta del propietario indica que se retiró.",
+      "items": [
+        [
+          "Bacon",
+          ""
+        ],
+        [
+          "Queso",
+          ""
+        ],
+        [
+          "Aguacate",
+          ""
+        ],
+        [
+          "Tomate",
+          ""
+        ],
+        [
+          "Zumo de naranja",
+          "",
+          "Disponibilidad por confirmar"
+        ]
+      ]
+    },
+    {
+      "name": "Para los peques",
+      "group": "Más de la carta",
+      "items": [
+        [
+          "Escalope de pollo",
+          "15,00"
+        ],
+        [
+          "Espaguetis boloñesa",
+          "15,00"
+        ],
+        [
+          "Lasaña boloñesa",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "Nuestras ollas",
+      "group": "Más de la carta",
+      "items": [
+        [
+          "Ajoblanco / gazpacho en vaso",
+          "3,50",
+          "Solo en temporada"
+        ],
+        [
+          "Salmorejo",
+          "8,50"
+        ]
+      ]
+    },
+    {
+      "name": "De nuestra huerta",
+      "group": "Otras versiones",
+      "note": "Categoría adicional de Maps. Puede corresponder a una carta anterior.",
+      "items": [
+        [
+          "Ensalada César",
+          "14,00",
+          "Lechuga, pollo a la plancha, bacon, pan frito, parmesano y salsa César"
+        ],
+        [
+          "Parrillada de verduras",
+          "14,00"
+        ],
+        [
+          "Ensalada de la casa",
+          "13,00"
+        ],
+        [
+          "Ensalada de queso de cabra",
+          "14,00",
+          "Mezclum, cherry, manzana, piña, miel balsámica y nueces"
+        ],
+        [
+          "Ensalada Hoyo 19",
+          "15,00"
+        ]
+      ]
+    },
+    {
+      "name": "Nuestras carnes seleccionadas",
+      "group": "Otras versiones",
+      "note": "Otra versión publicada en Maps; difiere de la foto de abril de 2026.",
+      "items": [
+        [
+          "Entrecot de ternera",
+          "24,00"
+        ],
+        [
+          "Brochetas de cerdo ibérico",
+          "18,00"
+        ],
+        [
+          "Pernil de cordero a las hierbas",
+          "25,00"
+        ],
+        [
+          "Parrillada ibérica",
+          "30,00"
+        ],
+        [
+          "Churrasco de pollo",
+          "17,00"
+        ],
+        [
+          "Presa caramelizada",
+          "24,00"
+        ],
+        [
+          "Presa ibérica",
+          "22,00"
+        ]
+      ]
+    },
+    {
+      "name": "Nuestros mares",
+      "group": "Otras versiones",
+      "note": "Otra versión publicada en Maps; no se mezcla con los precios principales.",
+      "items": [
+        [
+          "Salmón a la parrilla / plancha",
+          "20,00",
+          "Con verduras frescas"
+        ],
+        [
+          "Lubina / dorada a la espalda o a la sal",
+          "19,00"
+        ],
+        [
+          "Huevos con patatas y gulas",
+          "11,50"
+        ],
+        [
+          "Calamar a la plancha",
+          "19,50"
+        ]
+      ]
+    },
+    {
+      "name": "Nuestros arroces",
+      "group": "Otras versiones",
+      "items": [
+        [
+          "Paella mixta",
+          "14,00",
+          "Por persona. Otra versión publicada en Maps"
+        ],
+        [
+          "Paella de marisco",
+          "17,00",
+          "Por persona"
+        ]
+      ]
+    },
+    {
+      "name": "Salsas caseras",
+      "group": "Otras versiones",
+      "items": [
+        [
+          "Alioli",
+          ""
+        ],
+        [
+          "Salsa de champiñones",
+          "2,00"
+        ],
+        [
+          "Salsa a la pimienta",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "Otros",
+      "group": "Otras versiones",
+      "items": [
+        [
+          "Hamburguesa Angus americana",
+          "16,50",
+          "Otra versión publicada en Maps"
+        ],
+        [
+          "Fanta",
+          ""
+        ],
+        [
+          "7up",
+          ""
+        ],
+        [
+          "Zumo",
+          ""
+        ]
+      ]
+    }
+  ]
+}

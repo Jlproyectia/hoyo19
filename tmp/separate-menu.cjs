@@ -1,0 +1,13 @@
+const fs=require('fs');
+let home=fs.readFileSync('dist/index.html','utf8');
+const menu=home.match(/<section class="menu-section[\s\S]*?<\/section>/)[0];
+let page=home.replace(/<main id="contenido">[\s\S]*?<\/main>/,`<main id="contenido"><div class="menu-page-back"><a href="index.html">← Volver a Hoyo 19</a></div>${menu}</main>`).replace(/<title>.*?<\/title>/,'<title>La carta · Hoyo 19 · Mijas</title>');
+page=page.replace(/href="#(inicio|espacio|celebrar|visitanos)"/g,'href="index.html#$1"');
+home=home.replace(menu,'').replaceAll('href="#carta"','href="carta.html"').replace('<script src="menu-data.js" defer></script>','');
+home=home.replace('<button class="text-link" data-category="Cafés">Explorar los desayunos <span>↗</span></button>','<a class="text-link" href="carta.html?categoria=Caf%C3%A9s">Ver carta <span>↗</span></a>');
+fs.writeFileSync('dist/index.html',home);fs.writeFileSync('dist/carta.html',page);
+let js=fs.readFileSync('dist/app.js','utf8');
+js=js.replace("let selected='Entrantes';","if(categoryContainer){\nlet selected=new URLSearchParams(location.search).get('categoria')||'Entrantes';\nif(!window.menuData.some(c=>c.name===selected))selected='Entrantes';");
+js=js.replace("const navToggle=","}\nconst navToggle=");fs.writeFileSync('dist/app.js',js);
+fs.appendFileSync('dist/home.css','\n.menu-page-back{padding:24px 6%;border-top:1px solid var(--line);font-size:13px}.menu-page-back a:hover{text-decoration:underline}\n');
+fs.appendFileSync('design/DECISIONES.md','\n## Carta independiente\nLa carta completa se traslada a dist/carta.html. La homepage no contiene el listado ni el buscador. Sus CTA llevan a carta.html. Hero y mesa compartida ya implementadas con animación y adaptación móvil. Siguiente bloque en estudio: desayunos, tres propuestas pendientes de elección.\n');

@@ -1,0 +1,23 @@
+{
+  "generator": "integrado",
+  "pending": [
+    {
+      "category": "Bocatas",
+      "name": "Hoyo 19"
+    },
+    {
+      "category": "Bocatas",
+      "name": "Tortilla especial"
+    },
+    {
+      "category": "Cafés",
+      "name": "Crema"
+    },
+    {
+      "category": "Extras",
+      "name": "Completo"
+    }
+  ],
+  "reference": "Google Maps: carta fotografiada junio de 2026; cuatro productos sin ingredientes. Crear propuestas visuales pendientes de confirmar.",
+  "date": "2026-11-09"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "chuleton.png",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2623117,
+    "generatedWith": "image_gen",
+    "is4K": false
+  },
+  {
+    "file": "desayuno.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2834329,
+    "generatedWith": "image_gen",
+    "is4K": false
+  },
+  {
+    "file": "gambas.png",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2570759,
+    "generatedWith": "image_gen",
+    "is4K": false
+  },
+  {
+    "file": "paella.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2521909,
+    "generatedWith": "image_gen",
+    "is4K": false
+  },
+  {
+    "file": "salon.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2646560,
+    "generatedWith": "image_gen",
+    "is4K": false
+  }
+]
