@@ -26,10 +26,15 @@ document.querySelector('#dish-search').addEventListener('input',renderMenu);rend
 document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.category;document.querySelector('#dish-search').value='';renderMenu();document.querySelector('#carta').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}));
 }
 const navToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('header nav');
-navToggle.addEventListener('click',()=>{const open=navToggle.getAttribute('aria-expanded')!=='true';navToggle.setAttribute('aria-expanded',String(open));navToggle.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');nav.classList.toggle('open',open);});
-nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');navToggle.setAttribute('aria-expanded','false');navToggle.setAttribute('aria-label','Abrir menú');}));
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){nav.classList.remove('open');navToggle.setAttribute('aria-expanded','false');navToggle.setAttribute('aria-label','Abrir menú');}});
-const openDialog=dialog=>{dialog.showModal();document.body.classList.add('modal-open');};
+function setNavigation(open){
+ nav.hidden=!open;nav.classList.toggle('open',open);
+ navToggle.setAttribute('aria-expanded',String(open));navToggle.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');
+}
+navToggle.addEventListener('click',()=>setNavigation(navToggle.getAttribute('aria-expanded')!=='true'));
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setNavigation(false)));
+document.addEventListener('click',e=>{if(!e.target.closest('.site-header'))setNavigation(false);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!nav.hidden){setNavigation(false);navToggle.focus();}});
+const openDialog=dialog=>{setNavigation(false);dialog.showModal();document.body.classList.add('modal-open');};
 document.querySelectorAll('[data-dialog]').forEach(b=>b.addEventListener('click',()=>openDialog(document.getElementById(b.dataset.dialog))));
 document.querySelectorAll('[data-image]').forEach(b=>b.addEventListener('click',()=>{const dialog=document.querySelector('#photo-dialog');dialog.querySelector('img').src=b.dataset.image;dialog.querySelector('img').alt=b.dataset.caption;dialog.querySelector('p').textContent=b.dataset.caption;openDialog(dialog);}));
 document.querySelectorAll('dialog').forEach(dialog=>{dialog.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>document.body.classList.remove('modal-open'));dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});});
